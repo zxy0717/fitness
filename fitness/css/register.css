@@ -1,0 +1,42 @@
+﻿@charset "UTF-8";
+
+.container{
+  max-width: 400px;
+  line-height: 40px;
+}
+
+.content {
+     color: #333;
+     font-size: 20px;
+     font-family: KaiTi;
+     font-weight: bold;
+ }
+
+.bg {
+     background-image: url(../img/back.jpg);
+     background-size: cover;
+     height:600px;
+     max-width:400px;
+     margin-top: 33px;
+ }
+
+.content-front {
+     line-height: 30px;
+ }
+
+.page {
+     position:absolute;
+     background: rgba(255, 255, 255, 0.4);
+     margin-top: 50px;
+     margin-left: 15px;
+ }
+
+.button {
+     font-size: 20px;
+     width: 50%;
+     background-color: #0FF;
+     opacity: 0.9;
+     font-family: SimHei;
+     height: 40px;
+     border-radius: 12px;
+ }

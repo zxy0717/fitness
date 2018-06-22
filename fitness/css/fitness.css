@@ -1,0 +1,42 @@
+﻿@charset "UTF-8";
+
+.page {
+    max-width: 400px;
+    height: 600px;
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+    margin-top: 33px;
+    line-height: 30px;
+}
+
+.row {
+    color: #FF6A00;
+    font-size: 55px;
+    font-family: STXingKai;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    margin-top: 160px;
+}
+
+.introduction {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #FF6A00;
+}
+
+.button {
+    font-size: 20px;
+    color: #FF6A00;
+    opacity: 0.8;
+    font-weight: bold;
+    width: 100%;
+    font-family: SimHei;
+    height: 30px;
+    border-radius: 12px;
+    margin-top: 230px;
+}

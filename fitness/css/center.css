@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.container{
+	margin-top: 20px;
+	max-width: 400px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.NAME{
+	line-height: 70px;
+}
+
+.name{
+	text-align: left;
+}
+
+.user{
+	text-align: right;
+}
+
+.btn{
+	color: orange;
+	background: none;
+	text-align: left;
+}
+
+.exit{
+	color: orange;
+	background: none;
+	text-align: left;
+	position: relative;
+	top: 50px;
+}
+
+.information{
+	line-height: 50px;
+	text-align: center;
+}
+
+
+.fa-smile{
+	color: orange;
+}
+
+.bottom{
+	position: fixed;
+	bottom: 0px;
+	background-color: white;
+	
+}
+
+.smile{
+	background: none;
+	border: none;
+}
+
+
+.icon{
+	background: none;
+	border: none;
+}

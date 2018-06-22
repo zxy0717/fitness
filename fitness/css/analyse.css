@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.container{
+	margin-top: 20px;
+	max-width: 400px;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+.infortext{
+	line-height: 50px;
+}
+
+.infordata{
+	top: 20px;
+}
+
+.level{
+	text-align: center;
+}
+
+.introduction{
+	text-align: center;
+}
+
+.calculation{
+	text-align: center;
+}
+
+.standard{
+	text-align: center;
+}
+
+.BMI{
+	line-height: 50px;
+}
+
+.space{
+	height: 50px;
+}
+
+.SPACE{
+	height: 200px;
+}
+
+.bmi{
+	text-align: left;
+}
+
+.status{
+	line-height: 10px;
+	height: 5px;
+	
+
+}
+
+
+.status_text{
+	line-height: 30px;
+}
+
+
+.bottom{
+	position: fixed;
+	bottom: 0px;
+	background-color: white;
+	
+}
+
+.icon{
+	background: none;
+	border: none;
+}
+
+.thinnish{
+	border: solid;
+	border-radius: 5px;
+	color: grey;
+}
+
+.normal{
+	border: solid;
+	border-radius: 5px;
+	color: grey;
+}
+
+.chubby{
+	border: solid;
+	border-radius: 5px;
+	color: grey;
+}
+
+.obesity{
+	border: solid;
+	border-radius: 5px;
+	color: grey;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>形体管理</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="../css/change.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+			<form class="form-horizontal" method="post" action="change.php">
+				<div class="form-group">
+					<label for="password" class="col-xs-4 control-labe1">原始密码：</label>
+					<div class="col-xs-8">
+						<input type="password" class="form-control" name="oldpass">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="password" class="col-xs-4 control-labe1">修改密码：</label>
+					<div class="col-xs-8">
+						<input type="password" class="form-control" name="newpass">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="password" class="col-xs-4 control-labe1">确认密码：</label>
+					<div class="col-xs-8">
+						<input type="password" class="form-control" name="renewpass">
+					</div>
+				</div>
+				<div>
+					<input class="btn" type="submit" name="submit" value="确认修改" style="border: 1px solid orange">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
